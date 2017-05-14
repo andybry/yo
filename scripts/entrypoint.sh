@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+set -e
 generators=$(./scripts/calculateGenerators.js $*) 
 template=$1
 echo Installing generators: $generators
